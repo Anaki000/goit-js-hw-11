@@ -1,7 +1,7 @@
 export function fetchImages(query) {
   const BASE_URL = 'https://pixabay.com';
   const END_POINT = '/api/';
-  const KEY_API = '?key=32952239-1d47564a6cdd6d985205bb869';
+  const KEY_API = '?key=44219732-b756856c5facc95b2951616e8';
   const PARAMS = `&q=${query}&image_type=photo&orientation=horizontal&safesearch=true`;
 
   const url = BASE_URL + END_POINT + KEY_API + PARAMS;
